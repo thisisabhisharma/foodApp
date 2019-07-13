@@ -11,10 +11,10 @@ body, html {
      font-family:'Lato', sans-serif;
  } 
   .bg-image {
-    background-image: url("back.jpg");
+    background-image: url("../img/back.jpg");
     display:table;
     width:100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.61) ), url('back.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.61) ), url('../img/back.jpg');
     background-position:center top;
     background-attachment: fixed;
     height: 100%;
@@ -158,9 +158,9 @@ body, html {
   text-align: center;
   padding-left: 5rem;
 }
-section{
+/* section{
   /* padding: 5% 7%; */
-}
+   */
 .pclass{
   padding: 2%;
   
@@ -263,10 +263,10 @@ text-align: center;
   font-size: 15px;
 }
 .bg-image2 {
-  background-image: url("back-customers.jpg");
+  background-image: url("../img/back-customers.jpg");
   display:table;
   width:100%;
-  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 1) ), url('back-customers.jpg');
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 1) ), url('../img/back-customers.jpg');
   background-position:center top;
   background-attachment: fixed;
   height: 100%;
@@ -330,7 +330,7 @@ text-align: center;
    background-attachment: fixed;
    display:table;
     width:100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.61) ), url('back.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.61) ), url('../img/back.jpg');
     background-position:center top;
     background-attachment: fixed;
     height: 100%;
@@ -377,9 +377,9 @@ text-align: center;
     color:#555;
   }
   
-  .signup h2{
+  /* .signup h2{
     /* margin-bottom: 7%; */
-  }
+  */
   .signup-features{
     font-size: 123%;
     line-height: 271%;
